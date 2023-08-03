@@ -1,0 +1,66 @@
+.heading{
+    text-align: center;
+    background-color: green;
+    /* width: 31%; */
+    width:27%;
+    margin: auto;
+    color: white;
+    padding: 15px;
+    /* margin-left: 500px; */
+
+}
+form{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+}
+.cont-form{
+    padding-top: 40px;
+}
+
+.label-input{
+    /* width: 100%; */
+    padding: 15px; 
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    color: bisque;
+}
+.label-input input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+    input[type=submit]{
+       padding: 7px;
+       background: linear-gradient(rgb(139, 199, 139),  rgb(7, 133, 7));
+       color: white;
+       border: none;
+       width: 40%;
+     
+    }
+    input[type=submit]:hover{
+        background-color: green;
+        color: red;
+        /* border: 1px solid green; */
+    }
+
+    .label-inputsub{
+        text-align: center;
+        margin-top: 19px;
+    }
+    .container{
+        background-image: url(./images/flowerform.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 700px;
+    }
+    .tel input{
+       padding: 7px; 
+       display: flex;
+    }
+    
+

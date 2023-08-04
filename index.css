@@ -63,4 +63,15 @@ form{
        display: flex;
     }
     
+@media screen and (max-width:769px) {
+    
+    #formv{
+        width: 80%;
+        margin: auto;
+        padding: 10px; 
+    }
+    .heading{
+        width: 80%;
+    }
+}
 
